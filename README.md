@@ -1,4 +1,4 @@
-This clone of DBx1000 contains the artifacts for the macrobenchmarks used in the paper: _Foresight: Cache-Friendly Skiplists for In-Memory Indexes_. For the artifacts of the microbenchmarks, which include additional skiplist implementations, see: <https://github.com/tomercory/synchrobench_foresight>
+This clone of DBx1000 contains the artifacts for the macrobenchmarks used in the paper _Skiplists with Foresight: Skipping Cache Misses_. For the artifacts of the microbenchmarks, which include additional skiplist implementations, see: <https://github.com/tomercory/synchrobench_foresight>
 
 Foresight is a locality-enhancing optimization for skiplist-based in-memory indexes. It augments skiplist nodes with foreseen keys to reduce pointer-chasing and cache misses, and it is accompanied by two integration techniques for concurrent skiplists (a portable Optimistic Validation method and a SIMD-based method), to preserve correctness without weakening the progress guarantees of the underlying designs.
 
